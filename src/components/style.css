@@ -14,21 +14,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+     
 }
 
 .board {
     text-align: center;
+   
+  
+ 
 }
 
 .board .leaderboard{
     margin-bottom: 1em;
+ 
 }
 
 .board .duration{
     display: flex;
     justify-content: center;
     gap: 1em;
+   
 }
 
 .board .duration > button{
@@ -37,6 +42,7 @@
     border-radius: 50px;
     background-color: transparent;
     cursor: pointer;
+   
 }
 
 .board .duration > button:hover{
@@ -51,9 +57,12 @@
 
 #profile{
     /* display: flex; */
-
+    background-color: green;
+    border-radius: 5px;
     margin-top: 3em;
+    height: 100px;
 }
+
 
 #profile .flex{
     display: flex;
@@ -61,6 +70,8 @@
     gap: 1em;
     text-align: left;
     margin-bottom: 2em;
+    padding: 5px;
+  
 }
 
 #profile .flex .item{
@@ -69,7 +80,8 @@
 }
 
 #profile .flex img{
-    width: 20%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 
