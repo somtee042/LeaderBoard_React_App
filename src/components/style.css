@@ -57,7 +57,7 @@
 
 #profile{
     /* display: flex; */
-    background-color: green;
+    background-color: rgba(245, 147, 0, 0.797);
     border-radius: 5px;
     margin-top: 3em;
     height: 100px;
